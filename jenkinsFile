@@ -10,7 +10,7 @@ pipeline {
         }
         stage('Clone Repository') {
             steps {
-                git branch: 'main', url: 'https://github.com/codemcm/demojavaconsola'
+                git branch: 'main', url: 'https://github.com/Yahir2005/Demo_pipeline.git'
             }
         }
          stage('Compile Java') {
